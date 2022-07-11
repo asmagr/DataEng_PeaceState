@@ -1,0 +1,16 @@
+1) What technical/business constraints should the data storage component of the program architecture meet to fulfill the requirement described by the customer in paragraph «Statistics» ? So what kind of component(s) (listed in the lecture) will the architecture need?
+	The technical constraint that the data storage component of the architecture must satisfy is its ability to be scalable, i.e. to receive more data daily. For example, if the state of peace wants to store the reports of its observers over a period of 1 month for example, it will have to provide itself with a storage of a little more than 62000 GB. This requires satisfying the business constraint of providing the financial means to have such a type of storage.
+
+In accordance with the course, the state of step must be provided with a No-Sql distributed storage of the AP type because the reports must be available (A) at all times (to quickly do the analyzes and prevent the bad from spreading) and be tolerant of partitioning (P).
+	
+2) What business constraint should the architecture meet to fulfill the requirement describe in the paragraph «Alert»? Which component to choose?
+
+	The architecture must meet the business need to track and process citizen information 		 		in real time. For this, it must have a streaming component.
+	
+3) What mistake(s) from Peacestate can explain the failed attempt?
+	The data scientist team makes the mistake of not making the program scalable. The scalability of the program refers to its ability to automatically adapt to handle a variable level of demand. It is obtained by adding and removing processing capacity (VM, memory, cpu, storage).
+	
+4) Peacestate has likely forgotten some technical information in the report sent by the drone. In the future, this information could help Peacestate make its peacewatchers much more efficient. Which information?
+	In the report produced by the drone, the time for recording information is missing
+	
+
