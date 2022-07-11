@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.stevenchen3:scala-faker_2.12:0.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/stevenchen3/scala-faker_2.12/0.1.1/scala-faker_2.12-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/stevenchen3/scala-faker_2.12/0.1.1/scala-faker_2.12-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/stevenchen3/scala-faker_2.12/0.1.1/scala-faker_2.12-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
